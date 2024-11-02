@@ -9,7 +9,7 @@ namespace: default
 configmap:
   name: myhelmapp-configmap-v1
   data:
-    CUSTOM_HEADER: 'This app was deployed with helm!'
+    CUSTOM_HEADER: 'This app was deployed with helm! jaja'
 
 image:
   name: devopsjourney1/mywebapp
